@@ -1,5 +1,6 @@
 package com.teksystems;
 
+import com.teksystems.employees.*;
 import com.teksystems.monsters.*;
 
 public class Main
@@ -8,5 +9,8 @@ public class Main
     {
         TestMonster testMonster = new TestMonster();
         testMonster.run();
+
+        InheritanceActivity inheritanceActivity = new InheritanceActivity();
+        inheritanceActivity.run();
     }
 }
