@@ -1,4 +1,4 @@
-package com.teksystems;
+package com.teksystems.monsters;
 
 public class Monster
 {
