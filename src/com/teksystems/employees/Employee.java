@@ -15,13 +15,12 @@ public class Employee
 
     }
 
-    public Employee(long id, String name, String address, long phone, double salary)
+    public Employee(long id, String name, String address, long phone)
     {
         this.employeeId = id;
         this.employeeName = name;
         this.employeeAddress = address;
         this.employeePhone = phone;
-        this.basicSalary = salary;
     }
 
     public double calculateSalary()
